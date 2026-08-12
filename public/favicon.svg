@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="16" y1="48" x2="48" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <!-- Picture frame inner border -->
+  <rect x="10" y="10" width="44" height="44" rx="6" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <!-- Mountain landscape -->
+  <path d="M14 46 L26 28 L34 38 L38 32 L50 46 Z" fill="url(#mountain)" opacity="0.9"/>
+  <!-- Sun -->
+  <circle cx="42" cy="22" r="5" fill="#fbbf24" opacity="0.9"/>
+</svg>

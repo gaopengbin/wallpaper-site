@@ -1,6 +1,6 @@
 const endpoint = import.meta.env.VITE_PRODUCT_ANALYTICS_ENDPOINT ||
   (window.location.hostname === 'wallpaper.gpb.cc'
-    ? 'https://laogao.xyz/geod-telemetry/v1/product-events'
+    ? 'https://laogao.xyz/platform-api/v1/product-events'
     : '')
 
 const visitorStorageKey = 'wallpaper-web:analytics-visitor'
